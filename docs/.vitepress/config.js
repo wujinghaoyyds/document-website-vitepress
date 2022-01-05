@@ -1,8 +1,8 @@
 module.exports = {
     title: '吴京豪的文档网站', // 网站标题
     description: '总结归纳学习中的知识', // 网站的描述
-    base: '/', //  部署时的路径 默认 /  可以使用二级地址 /document-website-vitepress/
-    dest: './dist',// 打包目录
+    base: '/document-website-vitepress/', //  部署时的路径 默认 /  可以使用二级地址 /document-website-vitepress/
+    // dest: './dist',// 打包目录
     head: [['link', {rel: 'icon', href: '/favicon.ico'}]],// 添加网站图标
     // 主题配置
     themeConfig: {

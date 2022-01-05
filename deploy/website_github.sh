@@ -11,10 +11,7 @@ cd docs/.vitepress/dist
 git init
 git add -A
 git commit -m 'deploy'
-
-git push -f git@github.com:wujinghaoyyds/document-website-vitepress.git master
-
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
-
+git branch -M main
+git remote add origin git@github.com:wujinghaoyyds/document-website-vitepress.git
+git push -f -u origin main:gh-pages
 cd -
