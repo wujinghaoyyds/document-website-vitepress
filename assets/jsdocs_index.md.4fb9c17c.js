@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a as s}from"./app.cbaf4249.js";const u='{"title":"","description":"","frontmatter":{},"relativePath":"jsdocs/index.md","lastUpdated":1641549544659}',o={},c=s("p",null,"JS \u5185\u5BB9",-1),n=[c];function r(d,_,p,i,l,f){return a(),t("div",null,n)}var x=e(o,[["render",r]]);export{u as __pageData,x as default};
