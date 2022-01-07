@@ -1,6 +1,6 @@
 module.exports = {
-    title: '吴京豪的文档网站', // 网站标题
-    description: '总结归纳学习中的知识', // 网站的描述
+    title: '前端文档', // 网站标题
+    description: ' ', // 网站的描述
     base: '/document-website-vitepress/', //  部署时的路径 默认 /  可以使用二级地址 /document-website-vitepress/
     // dest: './dist',// 打包目录
     head: [['link', {rel: 'icon', href: '/favicon.ico'}]],// 添加网站图标
@@ -12,28 +12,30 @@ module.exports = {
         // smoothScroll: true,
         // 导航栏配置
         nav: [
-            {text: '首页', link: '/'},
-            {text: '指南', link: '/guide/'},
             {
                 text: 'HTML/CSS', items: [
-                    {text: 'HTML5', link: '/htmldocs/'},
-                    {text: 'CSS3', link: '/cssdocs/'},
-                    {text: 'JavaScript/待定', link: '/jsdocs/'},
+                    {text: 'HTML', link: '/htmldocs/'},
+                    {text: 'CSS', link: '/cssdocs/'},
                 ]
             },
-
-            {text: '面试题/待定', link: ''},
-            {text: '关于作者/待定', link: ''},
-
+            {text: 'JavaScript', link: '/jsdocs/'},
+            {text: '面试题', link: '/interview/'},
         ],
         //  左侧导航栏配置
         sidebar: {
-            'guide': [],
+            'catalogue': [],
             'htmldocs': [
                 {
-                    text: 'HTML5', children: [
-                        {text: '概况', link: '/htmldocs/'},
-                        {text: '入门', link: '/htmldocs/htmlone'},
+                    text: 'HTML', children: [
+                        {text: 'HTML简介', link: '/htmldocs/'},
+                        {text: '全局属性', link: '/htmldocs/htmlAttribute'},
+                        {text: '语义结构', link: '/htmldocs/htmlSemantic'},
+                        {text: '文本标签', link: '/htmldocs/htmlText'},
+                        {text: '表单标签', link: '/htmldocs/htmlForm'},
+                        {text: '链接/图像', link: '/htmldocs/htmlLinkAndImage'},
+                        {text: '列表/表格', link: '/htmldocs/htmlListAndTable'},
+                        {text: '多媒体标签', link: '/htmldocs/htmlMultimedia'},
+                        {text: '参考手册', link: '/htmldocs/htmlHandbook'},
                     ]
                 }],
             'cssdocs': [
@@ -47,14 +49,14 @@ module.exports = {
                     ]
                 }],
         },
-        algolia: {
-            apiKey: 'your_api_key',
-            indexName: 'index_name'
-        },
-        carbonAds: {
-            carbon: 'your-carbon-key',
-            custom: 'your-carbon-custom',
-            placement: 'your-carbon-placement'
-        }
+        // algolia: {
+        //     apiKey: 'your_api_key',
+        //     indexName: 'index_name'
+        // },
+        // carbonAds: {
+        //     carbon: 'your-carbon-key',
+        //     custom: 'your-carbon-custom',
+        //     placement: 'your-carbon-placement'
+        // }
     }
 }

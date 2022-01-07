@@ -1,17 +1,14 @@
 ---
 home: true
-heroImage: /favicon.ico
-heroAlt: Logo image
-heroText: 前端文档
-tagline: 总结归纳我所学的知识
-actionText: 网站介绍
-actionLink: /guide/
+heroText: 吴京豪的前端文档
+actionText: 内容总览 
+actionLink: /catalogue/
 features:
-- title: 简洁至上
-  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-- title: Vue驱动
-  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
-- title: 高性能
-  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
-  footer: MIT Licensed | Copyright © 2018-present Evan You
+- title: Abundant Content
+  details: 涵盖HTML、CSS、JavaScript等知识点。既可以当做前端的学习教程，也可以当做平时的开发手册。
+- title: More Resources
+  details: 不仅收集了前端的面试题目，还汇集了前端开发中的各种资源网站。
+- title: Future Expectations
+  details: 作者会持续保持更新。目前我的水平有限，相信随着我的不断学习，本文档涵盖的内容会越来越全面。
 ---
+
