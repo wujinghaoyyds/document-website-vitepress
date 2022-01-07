@@ -1,1 +1,0 @@
-import{_ as e,c as r,o as t,d as o}from"./app.cbaf4249.js";const f='{"title":"\u53C2\u8003\u624B\u518C","description":"","frontmatter":{},"relativePath":"htmldocs/htmlHandbook.md","lastUpdated":1641549094924}',a={},n=o("",3),l=[n];function c(s,_,h,i,d,p){return t(),r("div",null,l)}var b=e(a,[["render",c]]);export{f as __pageData,b as default};
