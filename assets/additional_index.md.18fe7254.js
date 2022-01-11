@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app.ea3c2dda.js";const l='{"title":"","description":"","frontmatter":{},"relativePath":"additional/index.md","lastUpdated":1641550560690}',o={};function r(n,c,d,s,i,p){return a(),e("div")}var f=t(o,[["render",r]]);export{l as __pageData,f as default};

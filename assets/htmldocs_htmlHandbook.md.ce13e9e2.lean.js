@@ -1,0 +1,1 @@
+import{_ as e,c as r,o as t,a}from"./app.ea3c2dda.js";const f='{"title":"\u53C2\u8003\u624B\u518C","description":"","frontmatter":{},"relativePath":"htmldocs/htmlHandbook.md","lastUpdated":1641549094924}',o={},n=a("",3),l=[n];function c(s,_,h,d,i,p){return t(),r("div",null,l)}var b=e(o,[["render",c]]);export{f as __pageData,b as default};
