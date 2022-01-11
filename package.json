@@ -10,6 +10,6 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
-    "deploy:web": "sh deploy/website_github.sh"
+    "deploy": "sh deploy/website_github.sh"
   }
 }

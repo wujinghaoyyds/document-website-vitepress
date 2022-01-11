@@ -3,7 +3,7 @@ module.exports = {
     description: ' ', // 网站的描述
     base: '/document-website-vitepress/', //  部署时的路径 默认 /  可以使用二级地址 /document-website-vitepress/
     // dest: './dist',// 打包目录
-    head: [['link', {rel: 'icon', href: '/favicon.ico'}]],// 添加网站图标
+    head: [['link', {rel: 'icon', href: './favicon.ico'}]],// 添加网站图标
     // 主题配置
     themeConfig: {
         // 获取每个文件最后一次 git 提交的 UNIX 时间戳(ms)，同时它将以合适的日期格式显示在每一页的底部
@@ -12,12 +12,14 @@ module.exports = {
         // smoothScroll: true,
         // 导航栏配置
         nav: [
-            {
-                text: 'HTML/CSS', items: [
-                    {text: 'HTML', link: '/htmldocs/'},
-                    {text: 'CSS', link: '/cssdocs/'},
-                ]
-            },
+            // {
+            //     text: 'HTML/CSS', items: [
+            //         {text: 'HTML', link: '/htmldocs/'},
+            //         {text: 'CSS', link: '/cssdocs/'},
+            //     ]
+            // },
+            {text: 'HTML', link: '/htmldocs/'},
+            {text: 'CSS', link: '/cssdocs/'},
             {text: 'JavaScript', link: '/jsdocs/'},
             {text: '面试题', link: '/interview/'},
         ],
@@ -40,12 +42,24 @@ module.exports = {
                 }],
             'cssdocs': [
                 {
-                    text: 'css3', children: [
-                        {text: 'css文档', link: '/cssdocs/'},
-                        {text: 'css文档1', link: '/cssdocs/cssone'},
-                        {text: 'css文档2', link: '/cssdocs/csstwo'},
-                        {text: 'css文档3', link: '/cssdocs/cssthree'},
-
+                    text: 'CSS', children: [
+                        {text: 'CSS 简介', link: '/cssdocs/'},
+                        {text: '选择器', link: '/cssdocs/cssSelector'},
+                        {text: '盒子', link: '/cssdocs/cssBox'},
+                        {text: '布局', link: '/cssdocs/cssDisplay'},
+                        {text: '边框', link: '/cssdocs/cssBorder'},
+                        {text: '轮廓', link: '/cssdocs/cssOutline'},
+                        {text: '文本', link: '/cssdocs/cssText'},
+                        {text: '颜色', link: '/cssdocs/cssColor'},
+                        {text: '背景', link: '/cssdocs/cssBackground'},
+                        {text: '字体', link: '/cssdocs/cssFont'},
+                        {text: '列表', link: '/cssdocs/cssList'},
+                        {text: '表格', link: '/cssdocs/cssTable'},
+                        {text: '单位', link: '/cssdocs/cssUnits'},
+                        {text: '动画', link: '/cssdocs/cssAnimation'},
+                        {text: '函数', link: '/cssdocs/cssFunction'},
+                        {text: '其他', link: '/cssdocs/cssOther'},
+                        {text: '进阶', link: '/cssdocs/cssAdvance'},
                     ]
                 }],
         },
